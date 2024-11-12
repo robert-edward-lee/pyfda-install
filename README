@@ -1,0 +1,15 @@
+## Инструкция
+```bash
+# создание виртульного окружения
+python -m venv .venv
+# активация виртульного окружения
+. .venv/Scripts/activate
+# установка пакетов из папки dl
+pip install --no-index --find-links dl -r requirements.txt
+# запуск
+./run
+# скачивание файлов зависимостей в папку dl
+pip download -r requirements.txt -d dl
+# сохранение зависимостей
+pip freeze > requirements.txt
+```
