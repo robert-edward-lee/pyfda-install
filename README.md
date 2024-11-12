@@ -4,7 +4,9 @@
 python -m venv .venv
 # активация виртульного окружения
 . .venv/Scripts/activate
-# установка пакетов из папки dl
+# онлайн установка пакетов
+pip install -r requirements.txt
+# оффлайн установка пакетов из папки dl
 pip install --no-index --find-links dl -r requirements.txt
 # запуск
 ./run
