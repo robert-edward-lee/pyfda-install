@@ -20,3 +20,5 @@ amaranth[builtin-yosys]
 # pytest
 # coverage
 # coveralls
+
+pyfda
